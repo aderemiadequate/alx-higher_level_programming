@@ -1,6 +1,3 @@
 #!/usr/bin/python3
-from sys import argv
-add = 0
-for s in argv[1:]:
-    add += int(s)
-print("{:d}".format(add))
+#alpha = [65, 66, 67, 68, 69, 70, 71, 72, 73, 7
+print([65, -, 91])
