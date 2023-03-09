@@ -1,3 +1,13 @@
 #!/usr/bin/python3
-#alpha = [65, 66, 67, 68, 69, 70, 71, 72, 73, 7
-print([65, -, 91])
+if __name__ == "__main__":
+    from sys import argv
+
+    list_of_args = []
+
+    if len(argv) == 1:
+        print("0")
+    else:
+        for i in range(1, len(argv)):
+            list_of_args.append(int(argv[i]))
+
+        print(sum(list_of_args))
